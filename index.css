@@ -34,13 +34,13 @@ a {
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   margin-bottom: 100px;
 }
 
 #link-about:hover {
   color: #696969;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   text-decoration: none;
   -webkit-transform : scale(1.1);
   -webkit-transition-duration: 0.7s;
@@ -55,7 +55,7 @@ a {
 
 #link-contact:hover {
   color: #696969;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   text-decoration: none;
   -webkit-transform : scale(1.1);
   -webkit-transition-duration: 0.7s;
@@ -133,12 +133,23 @@ footer#connect {
   z-index: 1;
 }
 
+@media only screen and (min-width: 400px) {
+  .mdl-mini-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    line-height: 0px;
+    font-size: 5px;
 
+  }
+
+}
 .mdl-mini-footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   line-height: 10px;
+  font-size: 25px;
 }
 
 .mdl-mini-footer__link_list {
