@@ -1,0 +1,225 @@
+body {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+/* NOTE: style on index.html */
+.portofolio-body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0px 2.0em;
+}
+.portofolio-header{
+  font-family: Courgette, cursive;
+  margin: auto;
+  padding-top: 170px;
+  max-width: 700px;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.links {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.7rem;
+  margin-bottom: 100px;
+}
+
+#link-about:hover {
+  color: #696969;
+  font-size: 0.9rem;
+  text-decoration: none;
+  -webkit-transform : scale(1.1);
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7;
+}
+
+#link-contact:active {
+  letter-spacing: normal;
+  color: white;
+}
+
+#link-contact:hover {
+  color: #696969;
+  font-size: 0.9rem;
+  text-decoration: none;
+  -webkit-transform : scale(1.1);
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7;
+}
+
+.word{
+   display: absolute;
+   top: 0px;
+   left: 0px;
+   min-height: 1em;
+}
+
+.word .cursor{
+  display:inline-block;
+  min-width:1px;
+  background:#FFF;
+  margin-left:-0.5em;
+  margin-top:-0.1em;
+  height:1.3em;
+  vertical-align: middle;
+  animation: blinkCursor 1s infinite;
+}
+
+@keyframes blinkCursor{
+   0% { opacity:1; }
+   80%{ opacity:1; }
+   80.1%{ opacity:0; }
+   100%{ opacity:0; }
+}
+
+.fa:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7;
+}
+
+.fa:active, .fa:link, .fa:visited, .fa-github:visited, .fa-twitter:visited, .fo-facebook:visited,
+.fa-instagram:visited, .fa-linkedin:visited, .fa-envelope-o:visited, .fa-codepen:visited,
+.fa-camera-retro:visited {
+  color: white;
+}
+
+.fa-github:hover, .fa-envelope-o:hover, .fa-codepen:hover, .fa-camera-retro:hover {
+  color: #696969;
+}
+
+.fa-twitter:hover {
+    color: #55acee;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #e95950;
+}
+
+.fa-linkedin:hover {
+  color: #007bb5;
+}
+
+footer#connect {
+  background-color: black;
+  color: #ffffff;
+  position: fixed;
+  padding: 0.5rem;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.mdl-mini-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  line-height: 10px;
+}
+
+.mdl-mini-footer__link_list {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  padding: 0;
+}
+
+.mdl-mini-footer__link_list li {
+  margin-right: 16px;
+  margin-bottom: 0;
+}
+
+#slogan  {
+  padding-bottom: 10px;
+  font-size: 1em;
+  font-family: 'Bellefair', serif;
+  letter-spacing: 4px;
+}
+
+#about {
+  font-size: 1rem;
+  font-family: 'Quicksand';
+}
+
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+.gallery {
+    font-family: Courgette, cursive;
+    text-align: center;
+    margin-left: 1.66%;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 65%;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+nav {
+  font-family: 'Quicksand', serif;
+  margin-top: -40px;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  color: white;
+}
+
+.gallery-about:hover{
+  color: #696969;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7;
+  font-size: 1.1em;
+}
+.gallery-home:hover{
+  color: #696969;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7;
+  font-size: 1.1em;
+}
+
+/* NOTE: stylesheet on form.html */
+.form-button {
+  text-align: center;
+  font-family: 'Bellefair';
+  margin-top: 10px;
+}
+
+.form-control {
+  margin-bottom: 5px;
+}
