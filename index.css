@@ -290,3 +290,8 @@ nav {
 .form-control {
   margin-bottom: 4px;
 }
+
+.form-message {
+  font-family: 'Quicksand', cursive;
+  letter-spacing: 3px;
+}
