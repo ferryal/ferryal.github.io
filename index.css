@@ -138,15 +138,55 @@ footer#connect {
   z-index: 1;
 }
 
-@media only screen and (min-width: 400px) {
-  .mdl-mini-footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    line-height: 0px;
-    font-size: 5px;
+
+@media only screen and (max-width: 1200px) {
+  .portofolio-header{
+    margin-top: 100px;
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .portofolio-header{
+    margin-top: 80px;
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .portofolio-header{
+    padding-top: 70px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .portofolio-header{
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .portofolio-header{
+    margin-top: 20px;
+    padding-top: 20px;
 
   }
+
+  .mdl-mini-footer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+
+  }
+  .mdl-mini-footer__link_list li {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+
 
 }
 .mdl-mini-footer {
@@ -234,8 +274,19 @@ nav {
   text-align: center;
   font-family: 'Bellefair';
   margin-top: 10px;
+  letter-spacing: 5px;
+}
+
+.form-button:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7;
+  font-size: 2em;
 }
 
 .form-control {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
