@@ -38,6 +38,11 @@ a {
   margin-bottom: 100px;
 }
 
+.btn {
+  margin: 10px;
+  font-size: 10px;
+}
+
 #link-about:hover {
   color: #696969;
   font-size: 0.7rem;
